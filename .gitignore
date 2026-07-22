@@ -1,0 +1,6 @@
+# temporários de QA / scripts locais
+_*.jpg
+_*.png
+*.mjs
+.DS_Store
+Thumbs.db

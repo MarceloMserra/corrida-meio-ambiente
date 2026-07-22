@@ -1,0 +1,10 @@
+# Deploy estático — o index.html está na raiz do repositório
+[build]
+  publish = "."
+  command = ""
+
+# cache longo para os assets (vídeos e imagens não mudam de nome)
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
