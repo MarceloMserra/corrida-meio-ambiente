@@ -9,8 +9,8 @@ Para publicar (Netlify, hospedagem, etc.), suba a pasta `site/` inteira; o `inde
 ## Estrutura
 - `index.html` — página completa (HTML + CSS + JS inline, sem build)
 - `assets/`
-  - `percursos.mp4` — vídeo unido 3K+5K+10K (embutido na seção Percursos)
-  - `v_3k.mp4` · `v_5k.mp4` · `v_10k.mp4` — vídeos individuais (abrem no lightbox ao clicar no percurso)
+  - `percursos.mp4` — vídeo unido 5K+10K (embutido na seção Percursos)
+  - `v_5k.mp4` · `v_10k.mp4` — vídeos individuais (abrem no lightbox ao clicar no percurso)
   - `croqui_3k/5k/10k.png` — croquis oficiais dos percursos
   - `poster.jpg` — capa do vídeo principal
   - `hero_runners.jpg` — foto de abertura

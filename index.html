@@ -158,7 +158,7 @@ section{position:relative; padding:110px 0}
 .videowrap video{width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;display:block;background:#06170e}
 .vcap{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:16px;flex-wrap:wrap}
 .vcap .mono{font-size:12.5px;letter-spacing:.14em;color:rgba(255,255,255,.55)}
-.routes{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:40px}
+.routes{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:40px;max-width:760px;margin-left:auto;margin-right:auto}
 .route{background:#0b3320;border:1px solid rgba(143,203,78,.22);border-radius:20px;overflow:hidden;transition:.32s var(--ease);cursor:pointer}
 .route:hover{transform:translateY(-8px);border-color:var(--lime);box-shadow:0 24px 50px rgba(0,0,0,.4)}
 .route .thumb{position:relative;background:#06170e;aspect-ratio:16/9;overflow:hidden}
@@ -414,33 +414,26 @@ footer{background:#08301c;color:rgba(255,255,255,.6);padding:34px 0;font-size:13
 <section id="percursos" class="dark grad">
   <div class="wrap">
     <div class="eyebrow reveal">Os percursos · Parque da Cidade</div>
-    <h2 class="title reveal" data-d="1">Três distâncias, um só parque</h2>
-    <p class="lead reveal" data-d="2">Largada e chegada no Estacionamento 6. Cada corredor escolhe a sua distância — do trajeto mais leve ao grande circuito que contorna todo o parque. Veja os percursos em vídeo aéreo.</p>
+    <h2 class="title reveal" data-d="1">Duas distâncias, um só parque</h2>
+    <p class="lead reveal" data-d="2">Largada e chegada no Estacionamento 6. Cada corredor escolhe a sua distância — do circuito de 5 km ao grande percurso de 10 km que contorna todo o parque. Veja os percursos em vídeo aéreo.</p>
 
     <div class="videowrap reveal" data-d="2">
       <video src="assets/percursos.mp4" controls preload="metadata" poster="assets/poster.jpg" playsinline></video>
     </div>
     <div class="vcap reveal" data-d="2">
-      <span class="mono">▶ APRESENTAÇÃO AÉREA · 3 KM · 5 KM · 10 KM</span>
+      <span class="mono">▶ APRESENTAÇÃO AÉREA · 5 KM · 10 KM</span>
       <span class="mono">PARQUE DA CIDADE DONA SARAH KUBITSCHEK</span>
     </div>
 
     <div class="routes">
-      <div class="route reveal" data-d="1" data-video="assets/v_3k.mp4">
-        <div class="thumb"><img src="assets/route_3k.jpg" alt="Percurso de 3 km em vista aérea do Parque da Cidade">
-          <div class="num">3<small>KM</small></div>
-          <div class="play"><span><svg width="20" height="22" viewBox="0 0 20 22" fill="#0C3D22"><path d="M2 2l16 9-16 9z"/></svg></span></div>
-        </div>
-        <div class="info"><h4>Percurso 3 km</h4><p>O mais leve · ideal para quem está começando</p></div>
-      </div>
-      <div class="route reveal" data-d="2" data-video="assets/v_5k.mp4">
+      <div class="route reveal" data-d="1" data-video="assets/v_5k.mp4">
         <div class="thumb"><img src="assets/route_5k.jpg" alt="Percurso de 5 km em vista aérea do Parque da Cidade">
           <div class="num">5<small>KM</small></div>
           <div class="play"><span><svg width="20" height="22" viewBox="0 0 20 22" fill="#0C3D22"><path d="M2 2l16 9-16 9z"/></svg></span></div>
         </div>
-        <div class="info"><h4>Percurso 5 km</h4><p>Para quem quer um pouco mais</p></div>
+        <div class="info"><h4>Percurso 5 km</h4><p>O circuito ideal para quem quer um bom desafio</p></div>
       </div>
-      <div class="route reveal" data-d="3" data-video="assets/v_10k.mp4">
+      <div class="route reveal" data-d="2" data-video="assets/v_10k.mp4">
         <div class="thumb"><img src="assets/route_10k.jpg" alt="Percurso de 10 km em vista aérea do Parque da Cidade">
           <div class="num">10<small>KM</small></div>
           <div class="play"><span><svg width="20" height="22" viewBox="0 0 20 22" fill="#0C3D22"><path d="M2 2l16 9-16 9z"/></svg></span></div>
@@ -595,7 +588,7 @@ footer{background:#08301c;color:rgba(255,255,255,.6);padding:34px 0;font-size:13
     <h2 class="reveal" data-d="1">Vem <em>correr</em><br>com a gente</h2>
     <div class="info">
       <div class="i"><div class="k">Local</div><div class="v">Parque da Cidade — Brasília/DF</div></div>
-      <div class="i"><div class="k">Distâncias</div><div class="v">3 km · 5 km · 10 km</div></div>
+      <div class="i"><div class="k">Distâncias</div><div class="v">5 km · 10 km</div></div>
       <div class="i"><div class="k">Realização</div><div class="v">Instituto Conexão do Bem</div></div>
     </div>
     <div class="hero-cta reveal" data-d="2" style="justify-content:center;margin-top:30px">
